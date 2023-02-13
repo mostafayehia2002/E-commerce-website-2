@@ -64,6 +64,12 @@ li span.active {
 
 /*style of navbar in mobile screen*/
 @media(max-width:767px) {
+    .navbar .logo{
+        margin-left: 20px;
+    }
+    .navbar .list{
+        margin-right: 20px;
+    }
     header .navbar {
         width: 100%;
     }
