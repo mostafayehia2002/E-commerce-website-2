@@ -24,11 +24,9 @@ header .background {
     font-size: 30px;
     text-transform: capitalize;
 }
-
 .text .h1-textColor {
     color: #1cbda2;
 }
-
 .text .h6-textColor {
     color: #6d7780;
     font-size: 14px;
@@ -88,4 +86,124 @@ header .background {
     .background .shop-now{
         margin: auto;
     }
+}
+/*style of features*/
+.features{
+
+width: 90%;
+height: auto;
+margin: 50px auto;
+display:grid;
+grid-template-columns: repeat(auto-fill,minmax(190px,1fr));
+gap: 8px;
+}
+.features .content{
+    height: 220px;
+    width: 190px;
+ box-shadow: 0px 0px 20px 1px rgba(232,229,232,1);
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;   
+}
+.features .content span{
+    height: 30px;
+    width:100px;
+    line-height: 30px;
+    text-transform: capitalize;
+    background-color:#1cbda2;
+   
+}
+.features .content .f1-address{
+    background-color: #9edcad;
+    
+}
+.features .content .f2-address{
+    background-color: #ceb8e1;
+   
+}
+.features .content .f3-address{
+    background-color:#d7eb50;
+   
+}
+.features .content .f4-address{
+    background-color:#7a99d1;
+   
+}
+.features .content .f5-address{
+    background-color:#c88ab8;
+   
+}
+.features .content .f6-address{
+    background-color:#d9bc5d;
+   
+}
+.features-header{
+    text-align: center;
+    line-height: 1.5;
+    text-transform:capitalize ;
+    font-weight: bolder;
+    font-size:25px;
+
+}
+.features-header h6{
+    color: #6d7780;
+}
+/********style of products*********/
+
+.products{
+height: auto;
+width: 100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+}
+.products .card{
+    height: 400px;
+    width:280px;
+    border: 2px solid #eee;
+    border-radius:20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin:20px;
+
+}
+ .products .product-img{
+    height:300px ;
+    width: 90%;
+    border-radius: 20px;
+    margin:15px auto;
+} 
+.card .product-name{
+    padding:10px 0px;
+}
+.product-stars i{
+color:#e8ba20;
+}
+.product-buy{
+position: absolute;
+bottom: 10px;
+right: 10px;
+height: 40px;
+width:40px;
+border-radius: 50%;
+background-color: #dbe3da;
+text-align: center;
+line-height: 40px;
+}
+@media (max-width:767px) {
+    .products{
+        width: 100%;
+    }  
+    .products .card{
+        width: 80%;
+        height: 450px;
+        margin:20px auto;
+    }
+
 }

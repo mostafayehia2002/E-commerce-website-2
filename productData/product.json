@@ -1,0 +1,68 @@
+[
+    {
+        "product_img":"img/products/f1.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "200"
+    },
+    {
+        "product_img": "img/products/f2.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "150"
+    },
+    {
+        "product_img": "img/products/f3.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "260"
+    },
+    {
+        "product_img": "img/products/f4.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "400"
+    },
+    {
+        "product_img": "img/products/f5.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "300"
+    },
+    {
+        "product_img": "img/products/f6.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "178"
+    },
+    {
+        "product_img": "img/products/f7.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "250"
+    },
+    {
+        "product_img": "img/products/f8.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "140"
+    },
+    {
+        "product_img": "img/products/n1.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "300"
+    },
+    {
+        "product_img": "img/products/n2.jpg",
+        "product_brand": "adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "140"
+    },
+    {
+        "product_img": "img/products/n3.jpg",
+        "product_brand":"adidas",
+        "product_name": "cartoon astronaut T-Shirts",
+        "product_price": "180"
+    }
+]
