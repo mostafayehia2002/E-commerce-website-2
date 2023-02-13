@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    background-color: #e6e6e6;
+    height: 100vh;
+    width: 100%;
+}
+
+header .background {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.background .text {
+    width: 40%;
+    text-align: left;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.text .h1-textColor {
+    color: #1cbda2;
+}
+
+.text .h6-textColor {
+    color: #6d7780;
+    font-size: 14px;
+}
+
+.background .hero {
+    width: 50%;
+    display: inline-flex;
+    justify-content: flex-end;
+
+}
+
+.hero img {
+    width: 500px;
+    height: 600px;
+}
+
+.background .shop-now {
+    color: #1cbda2;
+    width: 250px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    background-image: url("/img/button.png");
+    background-repeat: no-repeat;
+
+}
+/*style of background in mobile screen*/
+@media (max-width:767px) {
+    header .background{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;      
+    } 
+    .background .hero{
+        width: 100%;
+        justify-content:center;
+        align-items: center;
+        margin-top: 50px;      
+    } 
+    .hero img {
+        width: 400px;
+        height: 400px;
+    }
+    .background .text{
+        width: 100%;
+        font-size: 18px;
+        order:2;
+        text-align: center;
+        margin-top: 30px;
+        
+    } 
+    .background .shop-now{
+        margin: auto;
+    }
+}
