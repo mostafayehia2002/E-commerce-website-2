@@ -43,9 +43,9 @@ fetch("productData/product.json").then(
                <i class="fa-solid fa-splotch"></i>
                <i class="fa-solid fa-splotch"></i>
              </div>
-             <p class="product-price">${data[random].product_price}</p>
+             <p class="product-price">${data[random].product_price}EG</p>
              <div class="product-buy">
-               <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+               <i class="fa-solid fa-cart-shopping"></i>
              </div>
            </div>`;
            
