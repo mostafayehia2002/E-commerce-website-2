@@ -228,5 +228,45 @@ font-weight: bold;
         height: 450px;
         margin:20px auto;
     }
+    .features-header{
+        font-size: 16px;
+    }
+}
+/*style of banner*/
+.banner{
+    height: 300px;
+    width:100%;
+    margin:50px 0px ;
+    background-image: url("/img/banner/b2.jpg");
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bold;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
 
+}
+.banner div{
+    font-size: 40px;
+    padding:10px;
+}
+.banner div span{
+    color:rgb(241, 13, 13);
+    font-weight: bold;
+}
+.banner button{
+    padding:10px 20px;
+    border: none;
+    text-transform: capitalize;
+}
+@media (max-width:767px) {
+    .banner{
+        font-size: 18px;
+    }
+  .banner div{
+    font-size: 20px;
+  }  
 }
