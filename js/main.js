@@ -24,14 +24,13 @@ closeMenu.onclick=()=>{
 
 //fetch products from server
 let products=document.querySelectorAll(".products");
-
 fetch("productData/product.json").then(
     (request)=>{return request.json()}
 ).then(
-    (data)=>{        
+    (data)=>{  
+        for(let x=0;x<2;x++){      
         for(let i=0;i<4;i++){
-            let random=Math.floor(Math.random()*data.length);
-            for(let x=0;x<2;x++){
+            let random=Math.floor(Math.random()*data.length);  
             products[x].innerHTML+=
             `<div class="card">  
             <img src="${data[random].product_img}" alt="" class="product-img"> 
