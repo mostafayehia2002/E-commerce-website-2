@@ -22,8 +22,8 @@ closeMenu.onclick=()=>{
     menu.classList.toggle("translate");
 }
 
-//fetch oroduct from server
-let products=document.querySelector(".products");
+//fetch products from server
+let products=document.querySelectorAll(".products");
 
 fetch("productData/product.json").then(
     (request)=>{return request.json()}
@@ -31,7 +31,8 @@ fetch("productData/product.json").then(
     (data)=>{        
         for(let i=0;i<4;i++){
             let random=Math.floor(Math.random()*data.length);
-            products.innerHTML+=
+            for(let x=0;x<2;x++){
+            products[x].innerHTML+=
             `<div class="card">  
             <img src="${data[random].product_img}" alt="" class="product-img"> 
              <span class="product-brand">${data[random].product_brand}</span>
@@ -48,7 +49,7 @@ fetch("productData/product.json").then(
                <i class="fa-solid fa-cart-shopping"></i>
              </div>
            </div>`;
-           
+            }
 
         }
     }
