@@ -179,6 +179,10 @@ justify-content:space-evenly;
     width: 80%;
     margin-top: 15px;
 }
+.The-end{
+    text-align: center;
+    width: 100%;
+}
 @media (max-width:767px) {
    .footer{
     width: 100%;
