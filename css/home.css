@@ -383,3 +383,56 @@ text-transform: capitalize;
         width:98%;
     }
 }
+/**style of sign up****/
+.sign-up{
+height: 150px;
+width:100%;
+margin:50px 0px;
+background-image: url("../img/banner/b1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content:space-evenly;
+flex-wrap: wrap;
+align-items: center;
+color:white;
+font-size: 16px;
+text-transform: capitalize;
+font-weight:200px;
+}
+
+.sign-up .content1,
+.sign-up .content2{
+    width: 30%;
+     margin:0px auto; 
+     
+}
+.content1 span{
+color:#1cbda2;
+}
+.sign-up .content2 input[type="text"]{
+    height: 30px;
+    width: 60%;
+ border:none;
+}
+.sign-up .content2 input:focus{
+    outline: none;
+}
+.sign-up .content2 input[type="submit"]{
+ color:#fff;
+background-color: #1cbda2;
+margin-left: -4px;
+height: 30px;
+width:80px;
+border: none;
+cursor:pointer;
+
+}
+@media (max-width:767px) {
+    .sign-up .content1,
+    .sign-up .content2{
+        font-size: 16px;
+        width: 90%;
+        margin: auto;
+    }  
+}

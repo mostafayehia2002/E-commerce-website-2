@@ -139,3 +139,56 @@ li span.active {
         cursor: pointer;
     }
 }
+/**style of footer**/
+.footer{
+    height:50vh;
+    width: 100%;
+display:flex ;
+flex-wrap: wrap;
+justify-content:space-evenly;
+}
+.footer .box{
+    width:20%;
+    margin: auto;
+    text-align:left;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.box .logo{
+    height: 100px;
+    width: 100%;
+}
+.box .logo img{
+    margin-top:50px;
+}
+.box .address{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.box p{
+    padding:2px 0px;
+}
+.box p span{
+    color:#575f67;
+}
+.box .app,
+.box .google{
+    height: 30px;
+    width:39%;
+    border:2px solid #1cbda2;
+    border-radius: 10px;
+    display: inline-block;
+}
+.box .payment{
+    width: 80%;
+    margin-top: 15px;
+}
+@media (max-width:767px) {
+   .footer{
+    width: 100%;
+    justify-content: center;
+   } 
+   .footer .box{
+    width: 48%;
+   }
+}
