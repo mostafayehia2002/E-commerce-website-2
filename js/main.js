@@ -22,6 +22,11 @@ closeMenu.onclick=()=>{
     menu.classList.toggle("translate");
 }
 
+//add year to footer 
+let date = new Date();
+let year = document.querySelector(".year");
+year.innerHTML = `${ date.getFullYear() }`;
+
 //fetch products from server
 let products=document.querySelectorAll(".products");
 fetch("productData/product.json").then(
@@ -53,3 +58,4 @@ fetch("productData/product.json").then(
         }
     }
 )
+

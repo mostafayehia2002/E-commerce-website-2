@@ -148,22 +148,18 @@ flex-wrap: wrap;
 justify-content:space-evenly;
 }
 .footer .box{
+    height:70%;
     width:20%;
     margin: auto;
     text-align:left;
     text-transform: capitalize;
     font-size: 16px;
+    
 }
-.box .logo{
-    height: 100px;
-    width: 100%;
-}
-.box .logo img{
-    margin-top:50px;
-}
+
 .box .address{
     font-weight: bold;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 .box p{
     padding:2px 0px;
@@ -190,5 +186,9 @@ justify-content:space-evenly;
    } 
    .footer .box{
     width: 48%;
+   }
+   .The-end{
+font-size: 14px;
+padding:20px;
    }
 }
