@@ -23,9 +23,9 @@ closeMenu.onclick=()=>{
 }
 
 //add year to footer 
-// let date = new Date();
-// let year = document.querySelector(".year");
-// year.innerHTML = `${ date.getFullYear() }`;
+let date = new Date();
+let year = document.querySelector(".year");
+year.innerHTML = `${ date.getFullYear() }`;
 
 //fetch products from server
 let products=document.querySelectorAll(".products");
