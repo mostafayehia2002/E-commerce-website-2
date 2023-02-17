@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+.contact-background{
+    height: 350px;
+    width:100%;
+    padding:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    color:#fff;
+     background-image: url("../img/banner/banner.png"); 
+    }
+
+    .map{
+        margin:50px 0px;
+height: 50vh;
+width:100%;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content:space-evenly;
+align-items: center;
+    }
+    .map .address,
+    .map .showmap{
+        width:42%;
+        height: 100%;
+
+    }
+    .map .address{
+        text-transform: capitalize;
+        padding:100px 10px;
+        text-align:left;
+    }
+
+    .map .address p{
+        padding:10px;
+        color:black;
+        font-size: 20px;
+    }
+    .map .address p span{
+
+        color:#575f67;
+    }
+@media (max-width:767px) {
+    .map{
+        width:100%;
+        height: auto;
+    }
+    .map .address,
+    .map .showmap{
+        width:100%;
+        
+    }
+}
+
+/******style of  form section*****/
+.form{
+height:auto;
+width:90%;
+margin: 50px auto;
+border:3px solid #eee;
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+align-items: center;
+}
+.form form{
+    width:60%;
+    height: auto;
+    text-transform: capitalize;
+    padding: 50px;
+}
+form h4{
+    padding-bottom: 10px;
+    color:#bab9b9;
+}
+.form form input{
+    width:95%;
+    height: 40px;
+    padding:20px;
+    margin: 10px 0px;
+    border:2px solid #bab9b9;
+
+}
+.form form input:focus{
+    outline: none;
+}
+.form textarea{
+    min-width:95%;
+    max-width: 95%;
+}
+.form input[type="submit"]{
+    width: 100px;
+    padding:10px;
+    background-color:rgb(25, 176, 176);
+    border: none;
+    color:#fff;
+}
+.form .staff {
+    width:25%;
+}
+.staff .content{
+    display: inline-flex;
+    padding:10px;
+    margin:auto;
+}
+
+.content .description{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+@media (max-width:767px) {
+    .form{
+        width:100%;
+    }   
+
+    .form form{
+        width:100%;
+    }
+    .form form input{
+        width:99%;
+    }
+    .form textarea{
+        min-width:99%;
+        max-width: 99%;
+    }
+    .form input[type="submit"]{
+        width:99%;
+    }
+    .form .staff {
+        width:100%;
+    }
+}
