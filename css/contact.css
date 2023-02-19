@@ -48,6 +48,11 @@ align-items: center;
 
         color:#575f67;
     }
+    iframe{
+        height: 100%;
+        width:100%;
+    }
+
 @media (max-width:767px) {
     .map{
         width:100%;
