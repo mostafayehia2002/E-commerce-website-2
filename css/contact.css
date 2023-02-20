@@ -61,7 +61,12 @@ align-items: center;
     .map .address,
     .map .showmap{
         width:100%;
+       
         
+    }
+    iframe{
+        height: 400px;
+        width:100%;
     }
 }
 

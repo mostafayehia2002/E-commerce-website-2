@@ -22,6 +22,10 @@ closeMenu.onclick=()=>{
     menu.classList.toggle("translate");
 }
 
+window.onscroll = () => {
+  menu.classList.remove("translate");
+}
+
 //add year to footer 
 let date = new Date();
 let year = document.querySelector(".year");
